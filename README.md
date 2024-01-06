@@ -24,7 +24,7 @@ To set up the project on your local machine, follow these steps:
 
 1. Clone the repository:
    
-   git clone https://github.com/muskankumari2023/mobile-factory-code-challenge.git
+   https://github.com/Abhay7apk/Fanztar_code_challenge.git
    
 3. Navigate to the project directory:
    
