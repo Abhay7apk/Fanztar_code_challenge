@@ -4,7 +4,7 @@ This project is a backend application that simulates a mobile factory's ordering
 
 ## Features
 
-- Place orders for mobile parts through a REST API.
+- Place orders for mobile parts through a API.
 - Validate orders based on available parts.
 - Calculate total price for the ordered parts.
 - Store orders in memory for retrieval.
@@ -23,25 +23,23 @@ The application reads a predefined set of mobile parts and their prices from a `
 To set up the project on your local machine, follow these steps:
 
 1. Clone the repository:
-   ```sh
+   
    git clone https://github.com/muskankumari2023/mobile-factory-code-challenge.git
-   ```
-2. Navigate to the project directory:
-   ```sh
+   
+3. Navigate to the project directory:
+   
    cd mobile-factory-code-challenge
-   ```
-3. Install the dependencies:
-   ```sh
+   
+4. Install the dependencies:
    npm install
-   ```
+   
 
 ## Running the Server
 
 To start the server, run the following command in the terminal:
 
-```sh
 npm start
-```
+
 
 The server will start on port 8004. You can access the API through `http://localhost:8004`.
 
@@ -59,9 +57,9 @@ Send a POST request to `http://localhost:8004/order` with the following query pa
 
 Example using `curl`:
 
-```sh
+
 curl -X POST 'http://localhost:8004/order?screen=A&camera=D&port=F&os=I&body=K'
-```
+
 
 ### Retrieving All Orders
 
@@ -69,9 +67,9 @@ Send a GET request to `http://localhost:8004/orders` to retrieve all the orders 
 
 Example using `curl`:
 
-```sh
+
 curl http://localhost:8004/orders
-```
+
 
 ## How I Made It
 
@@ -86,3 +84,10 @@ This project was challenging but rewarding. I learned about server setup, routin
 
 Abhay Tiwari - LINKEDIN: https://www.linkedin.com/in/abhay-tiwari-software-enigneer/
 abhaytiw33@gmail.com
+
+
+##IMPORTANT:
+I any error occurs please delete node modules and reinstall it using :
+npm install
+this should work,
+if still have any error contact me.
